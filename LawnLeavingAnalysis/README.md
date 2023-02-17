@@ -11,6 +11,8 @@ You must have a folder with matched \_newFeatures.mat and \_Filenames.h5 files (
 
 Or you can download pre-processed data in pickle file format from the Dryad repository accompanying this publication and proceed directly to generating figures: ***(insert link here)***.
 
+To run this code, make sure to change the paths to all data files, pickles, .csvs etc. where they are specified in the notebooks.
+
 ### **This code generates behavioral metrics per genotype/condition including the following most important ones(others are specified within preProcessing.py):**
 
 *Radial_Dist*, the distance from the animal's nose tip from the center of the bacterial lawn. (mm/sec)
@@ -104,3 +106,17 @@ Or you can download pre-processed data in pickle file format from the Dryad repo
 *RD_states_Matrix_exog_Cent*, These are the Roaming and Dwelling state calls based on a 2-state Hidden Markov Model found in *PD1074_od2_LL_Data_Centroid_RoamingDwellingHMM_081721.pkl*
 
 *arHMM_MLstates*, These are the AR-HMM state calls based on a 4-state Autoregressive Hidden Markov Model found in *HMM_OnLawnOnly_ForwardFeaturesOnly_noQuirk_AR_062321.pkl*
+
+### Additional files:
+*PD1074_scalers_062321.pkl* contains StandardScalers (https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html) trained on wild type PD1074 data used to z-normalize new data before running it through AR-HMM segmentation steps.
+
+*PD1074_od2_LL_Data_Centroid_RoamingDwellingHMM_081721.pkl* contains the Roaming and Dwelling HMM used in the paper.
+
+*HMM_OnLawnOnly_ForwardFeaturesOnly_noQuirk_AR_062321.pkl* contains the AR-HMM used in the paper. After loading: arHMM_model = arHMMs_ALL[4][2] PD1074 K=4, KAPPA = 25,000
+
+*presentation_smallerfonts.mplstyle* a style-sheet to make matplotlib figures.
+
+*LIGHT.csv* a boolean vector representing the light OFF and light ON periods of stimulation used during optogenetics experiments.
+
+
+
