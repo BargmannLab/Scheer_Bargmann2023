@@ -2,7 +2,7 @@
 
 This folder contains Jupyter notebooks that perform post-processing analysis in Python to quantify behavioral metrics relating to behavioral arousal states and lawn leaving decisions.
 
-**Requirements:**
+###**Requirements:**
 All packages specified in pkg_requirements.txt
 
 This code relies on the SSM package developed by the Linderman lab: https://github.com/lindermanlab/ssm (follow installation instructions there).
@@ -11,7 +11,7 @@ You must have a folder with matched \_newFeatures.mat and \_Filenames.h5 files (
 
 Or you can download pre-processed data in pickle file format from the Dryad repository accompanying this publication and proceed directly to generating figures: (insert link here)
 
-**This code generates the following behavioral metrics per genotype/condition:**
+###**This code generates the following behavioral metrics per genotype/condition:**
 including the following most important ones (others are specified within preProcessing.py)
 
 *Radial_Dist*, the distance from the animal's nose tip from the center of the bacterial lawn. (mm/sec)
@@ -82,7 +82,7 @@ including the following most important ones (others are specified within preProc
 
 *Midbody_rspeed*, Midbody_speed, where positive values are replaced with 0s. Inverted so it is also a positive number.
 
-**And versions of the same features binned into contiguous 10-second bins.
+###**And versions of the same features binned into contiguous 10-second bins.
 A few other key features (which are only defined in the 10-second binned data format):**
 
 *InLawnRunMask*, a boolean mask. True = a contiguous intervals in which the animal was inside the lawn.
