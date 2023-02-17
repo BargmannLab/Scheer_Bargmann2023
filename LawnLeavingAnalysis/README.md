@@ -112,7 +112,7 @@ To run this code, make sure to change the paths to all data files, pickles, .csv
 
 *PD1074_od2_LL_Data_Centroid_RoamingDwellingHMM_081721.pkl* contains the Roaming and Dwelling HMM used in the paper.
 
-*HMM_OnLawnOnly_ForwardFeaturesOnly_noQuirk_AR_062321.pkl* contains the AR-HMM used in the paper. After loading: arHMM_model = arHMMs_ALL[4][2] PD1074 K=4, KAPPA = 25,000
+*HMM_OnLawnOnly_ForwardFeaturesOnly_noQuirk_AR_062321.pkl* contains the AR-HMM used in the paper. After loading: arHMM_model = arHMMs_ALL[4][2] (see code): num states =4, KAPPA = 25,000
 
 *presentation_smallerfonts.mplstyle* a style-sheet to make matplotlib figures.
 
