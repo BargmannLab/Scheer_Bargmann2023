@@ -4,9 +4,11 @@ This folder contains Jupyter notebooks that perform post-processing analysis in 
 
 **Requirements:**
 All packages specified in pkg_requirements.txt
+
 This code relies on the SSM package developed by the Linderman lab: https://github.com/lindermanlab/ssm (follow installation instructions there).
-You must have a folder with matched \_newFeatures.mat and \_Filenames.h5 files (1 per condition/genotype).
-Then you can proceed to Data_Preprocessing.ipynb
+
+You must have a folder with matched \_newFeatures.mat and \_Filenames.h5 files (1 per condition/genotype).Then you can proceed to Data_Preprocessing.ipynb
+
 Or you can download pre-processed data in pickle file format from the Dryad repository accompanying this publication and proceed directly to generating figures: (insert link here)
 
 **This code generates the following behavioral metrics per genotype/condition:**
