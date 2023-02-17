@@ -10,9 +10,9 @@
 % occasionally leave. extract lots of other behavioral metrics associated
 % with worm locomotion for subsequent in-depth analysis.
 
-%This version incorporates changes to segmentation processes, event-horizon
+%This version incorporates changes to segmentation processes, lawn boundary
 %detection, and introduces a slew of new behavioral metrics in the
-%tracks_postprocessing5.m method. Introduces the SUMMARY_STRUCT object,
+%tracks_postprocessing6.m method. Introduces the SUMMARY_STRUCT object,
 %which contains data only for the statistical interval (stat_int) in
 %question -- for most of my movies taken at 3fps for 1 hour (total 10800
 %frames), this interval is from frame 3601 to 10800 (7200 frames = 40
