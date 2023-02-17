@@ -9,7 +9,7 @@ This code relies on the SSM package developed by the Linderman lab: https://gith
 
 You must have a folder with matched \_newFeatures.mat and \_Filenames.h5 files (1 per condition/genotype).Then you can proceed to Data_Preprocessing.ipynb
 
-Or you can download pre-processed data in pickle file format from the Dryad repository accompanying this publication and proceed directly to generating figures: <span style="color: red;">(insert link here)</span>.
+Or you can download pre-processed data in pickle file format from the Dryad repository accompanying this publication and proceed directly to generating figures: ***(insert link here)***.
 
 ### **This code generates behavioral metrics per genotype/condition including the following most important ones(others are specified within preProcessing.py):**
 
