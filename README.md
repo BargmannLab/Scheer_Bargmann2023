@@ -1,6 +1,6 @@
 # Scheer_Bargmann2023 README
 
-This repository contains data files pertaining to Scheer, E. and Bargmann, C. I. (2023). 
+This repository contains code pertaining to Scheer, E. and Bargmann, C. I. (2023). 
 
 Questions about this repository can be directed towards Elias Scheer at elias.scheer@gmail.com or Cori Bargmann at cori@rockefeller.edu 
 
